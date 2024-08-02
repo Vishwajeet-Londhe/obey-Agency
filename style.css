@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Plain Light";
+    color: #fff;
 }
 
 html, body{
@@ -9,6 +11,33 @@ html, body{
     width: 100%;
 }
 
-h1{
-    color: red;
+#loader{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #0b0b0b;
+    padding: 25vh 10vw;
+}
+
+.line{
+    background-color: red;
+    height: fit-content;
+}
+
+.line h1{
+    font-size: 6.5vw;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#main{
+    position: relative;
+    background-color: #111;
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: #151515;
 }

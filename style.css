@@ -21,8 +21,9 @@ html, body{
 }
 
 .line{
-    background-color: red;
+    /* background-color: red; */
     height: fit-content;
+    overflow: hidden;
 }
 
 .line h1{

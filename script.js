@@ -13,4 +13,4 @@ setInterval(function() {
     }else{
         h5timer.innerHTML = grow
     }
-},25)
+},23)

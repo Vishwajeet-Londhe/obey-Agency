@@ -34,13 +34,19 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5vw;
+    gap: 1vw;
 }
 
 #line1-part1 h5, #line1-part1 h6{
     font-size: 3vw;
     font-weight: 100;
     font-family: "silk serif";
+}
+
+#line1-part1 h5{
+    /* background-color: red; */
+    width: 5vw;
+    text-align: right;
 }
 
 .line h1{

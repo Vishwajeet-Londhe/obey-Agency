@@ -6,7 +6,7 @@ gsap.from(".line h1",{
     delay: 0.5,
 });
 
-t1.from("#line1-part1, .line h2",{
+t1.from("#line1-part1",{
     opacity:0,
     onStart:function(){
         var h5timer = document.querySelector("#line1-part1 h5")
@@ -19,6 +19,11 @@ t1.from("#line1-part1, .line h2",{
             }
         },23);
     },
+});
+
+t1.to(".line h2",{
+    animationName:"anime",
+    opacity:1,
 });
 
 t1.to("#loader",{

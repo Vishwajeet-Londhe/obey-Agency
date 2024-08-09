@@ -26,3 +26,15 @@ t1.to("#loader",{
     duration:0.4,
     delay:3.3,
 });
+
+t1.from("#page1",{
+    y:1200,
+    opacity:0,
+    delay:0.2,
+    ease:Power4,
+    duration:0.5
+})
+
+t1.to("#loader",{
+    display:"none"
+})

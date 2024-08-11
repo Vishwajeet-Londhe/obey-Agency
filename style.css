@@ -127,11 +127,17 @@ html, body{
 }
 
 .hero{
-    background-color: red;
+    /* background-color: red; */
+    width: 72%;
+    margin-left: 27%;
+}
+
+.hero:nth-child(2){
+    margin-top: 14vh;
 }
 
 .hero h1{
-    font-size: 7vw;
+    font-size: 7.5vw;
     text-transform: uppercase;
-    line-height: 7vw;
+    line-height: 7.5vw;
 }

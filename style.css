@@ -105,3 +105,33 @@ html, body{
     width: 100%;
     background-color: #151515;
 }
+
+#page1 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw 9vw;
+}
+
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#nav-part2 h4{
+    font-size: 1.2vw;
+    font-family: 500;
+    padding-left: -5vw;
+}
+
+.hero{
+    background-color: red;
+}
+
+.hero h1{
+    font-size: 7vw;
+    text-transform: uppercase;
+    line-height: 7vw;
+}

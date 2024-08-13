@@ -18,7 +18,7 @@ html, body{
     /* background-color: white; */
     border: 1px solid #ffffff93;
     position: fixed;
-    z-index: 9999;
+    z-index: 999;
     mix-blend-mode: difference;
     transform: translate(-50%,-50%);
 }
@@ -146,6 +146,8 @@ html, body{
     overflow: hidden;
     display: flex;
     align-items: center;
+    position: relative;
+    z-index: 99999;
 }
 
 .hero:nth-child(2){
@@ -160,6 +162,13 @@ html, body{
 
 .hero h2,.hero h3{
     font-size: 7.5vw;
+    font-weight: 600;
     text-transform: uppercase;
     line-height: 7.5vw;
+}
+
+.hero h2:hover{
+    -webkit-text-stroke:2px #fff ;
+    color: transparent;
+    font-weight: 500;
 }

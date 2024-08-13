@@ -143,6 +143,9 @@ html, body{
     width: 72%;
     margin-left: 27%;
     height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .hero:nth-child(2){
@@ -150,6 +153,12 @@ html, body{
 }
 
 .hero h1{
+    font-size: 7.5vw;
+    text-transform: uppercase;
+    line-height: 7.5vw;
+}
+
+.hero h2,.hero h3{
     font-size: 7.5vw;
     text-transform: uppercase;
     line-height: 7.5vw;

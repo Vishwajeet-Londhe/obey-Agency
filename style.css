@@ -142,6 +142,7 @@ html, body{
     /* background-color: red; */
     width: 72%;
     margin-left: 27%;
+    height: fit-content;
 }
 
 .hero:nth-child(2){

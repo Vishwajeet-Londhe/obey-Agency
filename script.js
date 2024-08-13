@@ -30,7 +30,7 @@ function loadingAnimation(){
     t1.to("#loader",{
         opacity:0,
         duration:0.4,
-        delay:3.3,
+        delay:0,
     });
 
     t1.from("#page1",{
@@ -42,8 +42,12 @@ function loadingAnimation(){
     })
 
     t1.to("#loader",{
-        display:"none"
-    })
+        display:"none",
+    });
+    t1.from(".hero h1",{
+        y:100,
+        stagger:0.2,
+    });
 }
 
 function cursorAnimation(){

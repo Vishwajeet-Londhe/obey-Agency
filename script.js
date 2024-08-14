@@ -30,7 +30,7 @@ function loadingAnimation(){
     t1.to("#loader",{
         opacity:0,
         duration:0.4,
-        delay:0,
+        delay:2.3,
     });
 
     t1.from("#page1",{

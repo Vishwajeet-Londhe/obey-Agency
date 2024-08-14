@@ -160,15 +160,19 @@ html, body{
     line-height: 7.5vw;
 }
 
-.hero h2,.hero h3{
+.hero h2{
     font-size: 7.5vw;
     font-weight: 600;
     text-transform: uppercase;
     line-height: 7.5vw;
+    border-bottom: 0.5vw solid white;
+    padding-bottom: 0.8vw;
+    transition: all ease 0.3s;
 }
 
 .hero h2:hover{
     -webkit-text-stroke:2px #fff ;
     color: transparent;
     font-weight: 500;
+    border-bottom: 0.5vw solid #fff;
 }

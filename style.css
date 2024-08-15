@@ -234,5 +234,46 @@ html, body{
     min-height: 100vh;
     width: 100%;
     position: relative;
-    background-color: rgb(61, 61, 61);    
+    padding-top: 5vh;
+    /* background-color: rgb(61, 61, 61); */
+}
+
+#page4-content{
+    width: 65vw;
+    position: relative;
+    margin-left: 28%;
+}
+
+#page4-content h1{
+    font-size: 7.3vw;
+    text-transform: uppercase;
+}
+
+#page4-content .underline{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin: 2vw 0;
+}
+
+#page4-content>p{
+    font-size: 2.5vw;
+    width: 50%;
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+}
+
+#page4-flex{
+    display: flex;
+}
+
+#page4-flex img{
+    width: 50%;
+}
+
+#page4-flex p{
+    font-size: 1.25vw;
+    width: 31%;
+    margin-left: 2vw;
+    line-height: 2.8vh;
 }

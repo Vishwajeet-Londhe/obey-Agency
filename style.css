@@ -277,3 +277,31 @@ html, body{
     margin-left: 2vw;
     line-height: 2.8vh;
 }
+
+#page4-blue-div{
+    background-color: #3F7DF4;
+    width: 43vw;
+    padding: 3vw;
+    position: relative;
+    margin-top: -18vh;
+    margin-left: 22vw;
+}
+
+.blue-div-elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 2vw 0;
+    border-bottom: 2px solid #ffffff7c;
+}
+
+.blue-div-elem h4{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.blue-div-elem p{
+    width: 50%;
+    font-size: 1vw;
+}

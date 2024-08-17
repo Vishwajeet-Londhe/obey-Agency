@@ -391,6 +391,17 @@ html, body{
     font-size: 7.5vw;
     text-transform: uppercase;
     /* background-color: blue; */
+    position: relative;
+}
+
+#footer h1::before{
+    content: "04";
+    position:absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: -12%;
+    top: 10%;
 }
 
 .underline{
@@ -406,7 +417,7 @@ html, body{
     justify-content: space-between;
     padding-right:10vw;
     padding-top: 1vw;
-    margin-bottom: 7vw;
+    margin-bottom: 5vw;
 }
 
 #footer-div h6{

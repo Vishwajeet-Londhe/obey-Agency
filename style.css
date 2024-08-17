@@ -310,17 +310,17 @@ html, body{
     min-height: 100vh;
     width: 100%;
     position: relative;
+    padding-top: 8vw;
 }
 
 .elem{
-    
     white-space: nowrap;
     overflow-x: hidden;
-    margin-bottom: 1vw;
+    margin-bottom: -0.5vw;
 }
 
 .elem h1{
-    font-size: 6vw;
+    font-size: 7.5vw;
     -webkit-text-stroke: 1px #fff;
     font-weight: 400;
     color: transparent;
@@ -328,18 +328,52 @@ html, body{
     margin-right: 16px;
     text-transform: uppercase;
     display: inline-block;
-    animation-name: anime;
-    animation-duration: 5s;
+    animation-name: boss;
+    animation-duration: 25s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
-@keyframes anime {
+@keyframes boss {
     from{
         transform: translateX(0);
     }
     to{
         transform: translateX(calc(-100% - 20px));
     }
-    
+}
+
+.elem2{
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-bottom: -0.5vw;
+}
+
+.elem2 h1{
+    font-size: 7.5vw;
+    -webkit-text-stroke: 1px #fff;
+    font-weight: 400;
+    color: transparent;
+    /* background-color: red; */
+    margin-right: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    transform: translateX(calc(-100% - 20px));
+    animation-name: boss;
+    animation-duration: 25s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+.elem span{
+    font-style: italic;
+    font-family: "silk sarif";
+    color: transparent;
+}
+
+.elem2 span{
+    font-style: italic;
+    font-family: "silk sarif";
+    color: transparent;
 }

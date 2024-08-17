@@ -377,3 +377,50 @@ html, body{
     font-family: "silk sarif";
     color: transparent;
 }
+
+#footer{
+    height: 85vh;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    padding-left: 28vw;
+    padding-right: 3vw;
+}
+
+#footer h1{
+    font-size: 7.5vw;
+    text-transform: uppercase;
+    /* background-color: blue; */
+}
+
+.underline{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    margin: 2vw 0;
+}
+
+#footer-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right:10vw;
+    padding-top: 1vw;
+    margin-bottom: 7vw;
+}
+
+#footer-div h6{
+    font-size: 1.2vw;
+    margin-bottom: 1.7vw;
+}
+
+.box{
+    width: 20%;
+}
+
+#footer-div h5{
+    font-size: 1.9vw;
+    font-weight: 580;
+    margin: 0.2vh 0;
+    line-height: 2vw;
+}

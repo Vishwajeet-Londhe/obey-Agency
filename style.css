@@ -143,11 +143,21 @@ html, body{
     width: 72%;
     margin-left: 27%;
     height: fit-content;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     align-items: center;
     position: relative;
     z-index: 99999;
+}
+
+#hero1::before{
+    content: "01";
+    position:absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: -9%;
+    top: 0%;
 }
 
 .hero:nth-child(2){
@@ -247,6 +257,17 @@ html, body{
 #page4-content h1{
     font-size: 7.3vw;
     text-transform: uppercase;
+    position: relative;
+}
+
+#page4-content h1::before{
+    content: "03";
+    position:absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: -12%;
+    top: 10%;
 }
 
 #page4-content .underline{

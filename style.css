@@ -305,3 +305,41 @@ html, body{
     width: 50%;
     font-size: 1vw;
 }
+
+#page5{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.elem{
+    
+    white-space: nowrap;
+    overflow-x: hidden;
+    margin-bottom: 1vw;
+}
+
+.elem h1{
+    font-size: 6vw;
+    -webkit-text-stroke: 1px #fff;
+    font-weight: 400;
+    color: transparent;
+    /* background-color: red; */
+    margin-right: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes anime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+    
+}

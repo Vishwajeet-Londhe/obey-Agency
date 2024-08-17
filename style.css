@@ -424,3 +424,9 @@ html, body{
     margin: 0.2vh 0;
     line-height: 2vw;
 }
+
+#footer>h5{
+    font-weight: 500;
+    font-size: 1.2vw;
+    padding-top: 1vw;
+}

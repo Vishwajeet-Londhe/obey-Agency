@@ -143,21 +143,10 @@ html, body{
     width: 72%;
     margin-left: 27%;
     height: fit-content;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
     align-items: center;
-    position: relative;
-    z-index: 99999;
-}
-
-#hero1::before{
-    content: "01";
-    position:absolute;
-    font-size: 3vw;
-    font-weight: 100;
-    font-family: "silk serif";
-    left: -9%;
-    top: 0%;
+    
 }
 
 .hero:nth-child(2){
@@ -168,6 +157,18 @@ html, body{
     font-size: 7.5vw;
     text-transform: uppercase;
     line-height: 7.5vw;
+    position: relative;
+    
+}
+
+#hero1::before{
+    content: "01";
+    position: absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: 21%;
+    top: 33%;
 }
 
 .hero h2{

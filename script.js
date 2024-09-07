@@ -91,6 +91,9 @@ function loadingAnimation() {
     y: 120,
     stagger: 0.2,
   });
+  t1.from("#hero1, #page2", {
+    opacity:0
+  },"-=1");
 }
 
 function cursorAnimation() {
@@ -104,5 +107,5 @@ function cursorAnimation() {
 }
 
 loadingAnimation();
-// cursorAnimation()
+cursorAnimation();
 locomotiveAnimation();

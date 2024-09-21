@@ -507,3 +507,8 @@ html, body{
     font-size: 1.2vw;
     padding-top: 1vw;
 }
+
+._canvas_container{
+    z-index:99999 !important;
+    pointer-events: none;;
+}

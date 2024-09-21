@@ -98,7 +98,7 @@ function loadingAnimation() {
 
 function cursorAnimation() {
   document.addEventListener("mousemove", function (dets) {
-    gsap.to("#crsr", {
+    gsap.to("#crsr",{
       left: dets.x,
       top: dets.y,
     });
@@ -109,3 +109,4 @@ function cursorAnimation() {
 loadingAnimation();
 cursorAnimation();
 locomotiveAnimation();
+

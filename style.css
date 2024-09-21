@@ -238,7 +238,51 @@ html, body{
     min-height: 100vh;
     width: 100%;
     position: relative;
-    background-color: rgb(61, 61, 61);    
+    /* background-color: rgb(61, 61, 61); */
+    padding: 8vh 2vw;
+    margin-bottom: 20vh;
+}
+
+#page3 h1{
+    font-size: 7.3vw;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 28vw;
+}
+
+#page3 h1::before{
+    content: "02";
+    position:absolute;
+    font-size: 3vw;
+    font-weight: 100;
+    font-family: "silk serif";
+    left: -12%;
+    top: 10%;
+}
+
+#page3 .underline{
+    margin-left: 28vw;
+}
+
+#image-div-container{
+    background-color: red;
+    padding: 1vw;
+    position: relative;
+}
+
+.image-div{
+    height: 33vw;
+    position: relative;
+    overflow: hidden;
+    width: 24vw;
+    background-color: blue;
+}
+
+.image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 #page4{

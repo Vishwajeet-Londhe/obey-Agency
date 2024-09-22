@@ -248,6 +248,7 @@ html, body{
     text-transform: uppercase;
     position: relative;
     margin-left: 28vw;
+    
 }
 
 #page3 h1::before{
@@ -269,9 +270,10 @@ html, body{
     padding: 1vw;
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .image-div{
@@ -290,11 +292,26 @@ html, body{
     object-position: center;
 }
 
+.page3-circle1{
+    height: 23vw;
+    width: 23vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page3-circle1 svg {
+    height: 30%;
+}
+
 #page4{
     min-height: 100vh;
     width: 100%;
     position: relative;
-    padding-top: 5vh;
+    padding-top: 15vh;
     /* background-color: rgb(61, 61, 61); */
 }
 
@@ -381,7 +398,7 @@ html, body{
     min-height: 100vh;
     width: 100%;
     position: relative;
-    padding-top: 8vw;
+    padding-top: 15vw;
 }
 
 .elem{
@@ -450,10 +467,11 @@ html, body{
 }
 
 #footer{
-    height: 85vh;
+    min-height: 100vh;
     width: 100%;
     /* background-color: red; */
     position: relative;
+    padding-top: 16vh;
     padding-left: 28vw;
     padding-right: 3vw;
 }

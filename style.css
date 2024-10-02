@@ -266,23 +266,28 @@ html, body{
 }
 
 #image-div-container{
-    background-color: red;
+    /* background-color: red; */
     padding: 1vw;
     position: relative;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     
 }
 
 .image-div{
-    height: 33vw;
+    height: 35vw;
+    width: 27vw;
     position: relative;
     overflow: hidden;
-    width: 24vw;
-    background-color: blue;
+    /* background-color: blue; */
     flex-shrink: 0;
+}
+
+.image-div:nth-child(1){
+    height: 29vw;
+    width: 21vw;
 }
 
 .image-div img{
@@ -300,11 +305,29 @@ html, body{
     margin-top: 20vh;
     display: flex;
     align-items: center;
+    margin-left: 10vw;
     justify-content: center;
 }
 
 .page3-circle1 svg {
     height: 30%;
+}
+
+.page3-circle2{
+    height: 23vw;
+    width: 23vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    /* margin-top: 20vh; */
+    display: flex;
+    align-items: center;
+    /* margin-left: 10vw; */
+    justify-content: center;
+}
+
+.page3-circle2 svg{
+    height: 30%;
+    rotate: -45deg;
 }
 
 #page4{

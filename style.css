@@ -20,7 +20,7 @@ html, body{
     position: fixed;
     z-index: 999;
     mix-blend-mode: difference;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 #loader{
@@ -278,7 +278,7 @@ html, body{
 
 .image-div{
     height: 35vw;
-    width: 27vw;
+    width: 30vw;
     position: relative;
     overflow: hidden;
     /* background-color: blue; */
@@ -303,6 +303,7 @@ html, body{
     border: 2px solid #fff;
     border-radius: 50%;
     margin-top: 20vh;
+    position: relative;
     display: flex;
     align-items: center;
     margin-left: 10vw;
@@ -318,6 +319,7 @@ html, body{
     width: 23vw;
     border: 2px solid #fff;
     border-radius: 50%;
+    position: relative;
     /* margin-top: 20vh; */
     display: flex;
     align-items: center;
@@ -328,6 +330,50 @@ html, body{
 .page3-circle2 svg{
     height: 30%;
     rotate: -45deg;
+}
+
+.circle-in{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 0;
+    transition: all ease 0.5s;
+    border-radius: 50%;
+}
+
+.circle-in p{
+    font-size: 1vw;
+    font-size: 500;
+    color: #000;
+    width: 78%;
+    scale: 0;
+    transition: all ease 0.5s;
+    transition-delay: 0.3s;
+    opacity: 0;
+}
+
+.page3-circle1:hover .circle-in{
+    scale: 1;
+}
+
+.page3-circle1:hover p{
+    scale: 1;
+    opacity: 1;
+}
+
+.page3-circle2:hover .circle-in{
+    scale: 1;
+}
+
+.page3-circle2:hover p{
+    scale: 1;
+    opacity: 1;
 }
 
 #page4{

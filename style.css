@@ -12,7 +12,7 @@ html, body{
 }
 
 .mousefollower{
-    border: 2px solid #fff;
+    border: 20px solid #fff;
     background-color: rgb(255, 255 , 255);
     scale: 2;
     mix-blend-mode: difference;

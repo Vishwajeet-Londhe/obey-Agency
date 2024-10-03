@@ -11,16 +11,11 @@ html, body{
     width: 100%;
 }
 
-#crsr{
-    height: 3vw;
-    width: 3vw;
-    border-radius: 50%;
-    /* background-color: white; */
-    border: 1px solid #ffffff93;
-    position: fixed;
-    z-index: 999;
+.mousefollower{
+    border: 2px solid #fff;
+    background-color: rgb(255, 255 , 255);
+    scale: 2;
     mix-blend-mode: difference;
-    transform: translate(-50%, -50%);
 }
 
 #loader{

@@ -199,6 +199,11 @@ html, body{
     background-position : center;
 }
 
+#video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 #video-cursor{
     background-color: #FFA63D;

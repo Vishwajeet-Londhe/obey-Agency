@@ -190,11 +190,11 @@ html, body{
 }
 
 #video-container{
-    height: 45vh;
-    width: 70vw;
+    height: 66vh;
+    width: 71vw;
     position: relative;
     left: 29%;
-    background-image: url(https://obys.agency/wp-content/uploads/2022/11/Showreel-2022-preview-1.jpg);
+    background-color: red;
 }
 
 #video-container img{
@@ -216,7 +216,7 @@ html, body{
     height: 9vw;
     width: 9vw;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     top: -10%;
     left: 80%;
     display: flex;

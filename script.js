@@ -133,6 +133,10 @@ function cursorAnimation() {
   videoContainer.addEventListener("click",function(){
     video.play();
     video.style.opacity=1;
+    document.querySelector("#video-cursor").innerHTML=`<i class="ri-pause-line"></i>`
+    gsap.to("#video-cursor",{
+      scale:0.5,
+    });
   });
 
 }

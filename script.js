@@ -130,13 +130,17 @@ function cursorAnimation() {
       top: "-10%",
     });
   });
+
+  var flag=0
   videoContainer.addEventListener("click",function(){
-    video.play();
-    video.style.opacity=1;
-    document.querySelector("#video-cursor").innerHTML=`<i class="ri-pause-line"></i>`
-    gsap.to("#video-cursor",{
-      scale:0.5,
-    });
+    if(flag==0){
+      video.play();
+      video.style.opacity=1;
+      document.querySelector("#video-cursor").innerHTML=`<i class="ri-pause-line"></i>`
+      gsap.to("#video-cursor",{
+        scale:0.5,
+      });
+    }
   });
 
 }

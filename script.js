@@ -136,10 +136,19 @@ function cursorAnimation() {
     if(flag==0){
       video.play();
       video.style.opacity=1;
-      document.querySelector("#video-cursor").innerHTML=`<i class="ri-pause-line"></i>`
+      document.querySelector("#video-cursor").innerHTML=`<i class="ri-pause-mini-fill"></i>`
       gsap.to("#video-cursor",{
         scale:0.5,
       });
+      flag=1
+    }else{
+      video.pause();
+      video.style.opacity=0;
+      document.querySelector("#video-cursor").innerHTML=`<i class="ri-play-mini-fill"></i>`
+      gsap.to("#video-cursor",{
+        scale:1,
+      });
+      flag=0
     }
   });
 

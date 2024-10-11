@@ -594,3 +594,18 @@ html, body{
     z-index:99999 !important;
     pointer-events: none;;
 }
+
+#flag{
+    height: 25vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+
+#hero3{
+    /* background-color: red; */
+    position: relative;
+    z-index: 999;
+}

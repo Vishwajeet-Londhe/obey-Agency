@@ -215,12 +215,15 @@ document.querySelector("#hero3").addEventListener("mouseleave", function(){
   });
 });
 
-gsap.from("#footer h1",{
-  opacity: 0,
-  y:50,
-  delay: 10,
-  duration:1,
-  onStart: function(){
-    $('#footer h1').textillate({ in: { effect: 'fadeIn' } });
-  }
-  })
+document.querySelector("#footer h1").addEventListener("mouseenter", function(){
+
+  gsap.from("#footer h1",{
+    opacity: 0,
+    y:50,
+    delay: 1,
+    duration:1,
+    onStart: function(){
+      $('#footer h1').textillate({ in: { effect: 'fadeIn' } });
+    }
+    })
+});

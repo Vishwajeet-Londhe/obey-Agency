@@ -214,3 +214,13 @@ document.querySelector("#hero3").addEventListener("mouseleave", function(){
     opacity: 0,
   });
 });
+
+gsap.from("#footer h1",{
+  opacity: 0,
+  y:50,
+  delay: 10,
+  duration:1,
+  onStart: function(){
+    $('#footer h1').textillate({ in: { effect: 'fadeIn' } });
+  }
+  })

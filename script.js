@@ -218,12 +218,12 @@ document.querySelector("#hero3").addEventListener("mouseleave", function(){
 document.querySelector("#footer h1").addEventListener("mouseenter", function(){
 
   gsap.from("#footer h1",{
-    opacity: 0,
-    y:50,
+    opacity: 1,
+    // y:50,
     delay: 1,
-    duration:1,
+    duration:2,
     onStart: function(){
-      $('#footer h1').textillate({ in: { effect: 'fadeIn' } });
+      $('#footer h1').textillate({ in: { effect: 'rotateIn' } });
     }
     })
 });

@@ -680,10 +680,5 @@ html, body{
         padding-bottom: 0.8vw;
         
     }
-    
-    .hero h2:hover{
-        -webkit-text-stroke:2px #fff ;
-        color: transparent;
-        font-weight: 500;
-    }
+
 }

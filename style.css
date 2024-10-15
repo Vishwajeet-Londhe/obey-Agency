@@ -609,3 +609,81 @@ html, body{
     position: relative;
     z-index: 999;
 }
+
+@media (max-width: 600px) {
+    #page1{
+        height: 70vh;
+        width: 100%;
+        background-color: #151515;
+    }
+    
+    #page1 #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2.8vw 9vw;
+    }
+    
+    #nav-part2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+    }
+    
+    #nav-part2 h4{
+        font-size: 1.2vw;
+        font-family: 500;
+        padding-left: -5vw;
+    }
+    
+    .hero{
+        /* background-color: red; */
+        width: 72%;
+        margin-left: 5%;
+        height: fit-content;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    .hero:nth-child(2){
+        margin-top: 14vh;
+    }
+    
+    .hero h1{
+        font-size: 9.8vw;
+        text-transform: uppercase;
+        line-height: 10.5vw;
+        font-weight: 600;
+        position: relative;
+        
+    }
+    
+    #hero1::before{
+        content: "01";
+        position: absolute;
+        font-size: 5vw;
+        font-weight: 100;
+        font-family: "silk serif";
+        left: 5%;
+        top: 23%;
+    }
+    
+    .hero h2{
+        font-size: 9.8vw;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 10.5vw;
+        border-bottom: 0.8vw solid white;
+        padding-bottom: 0.8vw;
+        
+    }
+    
+    .hero h2:hover{
+        -webkit-text-stroke:2px #fff ;
+        color: transparent;
+        font-weight: 500;
+    }
+}

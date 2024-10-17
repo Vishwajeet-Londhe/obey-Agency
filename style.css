@@ -615,6 +615,7 @@ html, body{
         height: 70vh;
         width: 100%;
         background-color: #151515;
+        padding: 1px;
     }
     
     #page1 #nav{
@@ -623,6 +624,7 @@ html, body{
         justify-content: space-between;
         padding: 2.8vw 9vw;
         position:fixed;
+        top: 0;
     }
     
     #nav-part2{

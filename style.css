@@ -625,9 +625,14 @@ html, body{
         padding: 2.8vw 9vw;
         position:fixed;
         width: 100%;
-        top: 0;
+        top: 2vw;
+        left: 5vw;
     }
     
+    #nav svg{
+        scale: 0.9;
+    }
+
     #nav-part2{
         display: flex;
         align-items: center;
@@ -658,9 +663,9 @@ html, body{
     }
     
     .hero h1{
-        font-size: 9.8vw;
+        font-size: 9.2vw;
         text-transform: uppercase;
-        line-height: 10.5vw;
+        line-height: 10.2vw;
         font-weight: 600;
         position: relative;
         
@@ -677,10 +682,10 @@ html, body{
     }
     
     .hero h2{
-        font-size: 9.8vw;
+        font-size: 9.2vw;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 10.5vw;
+        line-height: 9vw;
         border-bottom: 0.8vw solid white;
         padding-bottom: 0.8vw;
         

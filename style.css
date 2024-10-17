@@ -621,9 +621,10 @@ html, body{
     #page1 #nav{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-end;
         padding: 2.8vw 9vw;
         position:fixed;
+        width: 100%;
         top: 0;
     }
     
@@ -632,6 +633,7 @@ html, body{
         align-items: center;
         justify-content: center;
         gap: 3vw;
+        display: none;
     }
     
     #nav-part2 h4{
@@ -652,7 +654,7 @@ html, body{
     }
     
     .hero:nth-child(2){
-        margin-top: 14vh;
+        margin-top: 26vh;
     }
     
     .hero h1{
@@ -671,7 +673,7 @@ html, body{
         font-weight: 100;
         font-family: "silk serif";
         left: 5%;
-        top: 23%;
+        top: 30%;
     }
     
     .hero h2{

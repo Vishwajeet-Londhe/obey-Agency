@@ -622,6 +622,7 @@ html, body{
         align-items: center;
         justify-content: space-between;
         padding: 2.8vw 9vw;
+        position:fixed;
     }
     
     #nav-part2{

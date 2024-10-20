@@ -776,22 +776,24 @@ html, body{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
         
     }
     
     .image-div{
-        height: 35vw;
-        width: 30vw;
+        height: 110vw;
+        width: 90vw;
         position: relative;
         overflow: hidden;
         /* background-color: blue; */
         flex-shrink: 0;
+        margin-bottom: 10vw;
     }
     
     .image-div:nth-child(1){
-        height: 29vw;
-        width: 21vw;
+        height: 110vw;
+        width: 90vw;
     }
     
     .image-div img{
@@ -812,6 +814,7 @@ html, body{
         align-items: center;
         margin-left: 10vw;
         justify-content: center;
+        display: none;
     }
     
     .page3-circle1 svg {
@@ -829,6 +832,7 @@ html, body{
         align-items: center;
         /* margin-left: 10vw; */
         justify-content: center;
+        display: none;
     }
     
     .page3-circle2 svg{

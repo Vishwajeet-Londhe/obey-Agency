@@ -692,9 +692,9 @@ html, body{
     }
 
     #page2{
-        height: 60vh;
+        height: 58vh;
         width: 100%;
-        padding-top: 0vh;
+        padding-top: 6vh;
         position: relative;
     }
     
@@ -734,4 +734,149 @@ html, body{
         font-size: 5vw;
     }
 
+    #page3{
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        /* background-color: rgb(61, 61, 61); */
+        padding: 8vh 3vw;
+        margin-top:25vh;
+        margin-bottom: 20vh;
+    }
+    
+    #page3 h1{
+        font-size: 9.5vw;
+        text-transform: uppercase;
+        position: relative;
+        margin-left: 2vw;
+        margin-bottom: 8vw;
+        
+    }
+    
+    #page3 h1::before{
+        content: "02";
+        position:absolute;
+        font-size: 5vw;
+        font-weight: 100;
+        font-family: "silk serif";
+        left: 0%;
+        top: -66%;
+    }
+    
+    #page3 .underline{
+        margin-left: 2vw;
+        width: 94%;
+    }
+    
+    #image-div-container{
+        /* background-color: red; */
+        margin-top: 18vw;
+        padding: 1vw;
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    
+    .image-div{
+        height: 35vw;
+        width: 30vw;
+        position: relative;
+        overflow: hidden;
+        /* background-color: blue; */
+        flex-shrink: 0;
+    }
+    
+    .image-div:nth-child(1){
+        height: 29vw;
+        width: 21vw;
+    }
+    
+    .image-div img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .page3-circle1{
+        height: 23vw;
+        width: 23vw;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        margin-top: 20vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-left: 10vw;
+        justify-content: center;
+    }
+    
+    .page3-circle1 svg {
+        height: 30%;
+    }
+    
+    .page3-circle2{
+        height: 23vw;
+        width: 23vw;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        position: relative;
+        /* margin-top: 20vh; */
+        display: flex;
+        align-items: center;
+        /* margin-left: 10vw; */
+        justify-content: center;
+    }
+    
+    .page3-circle2 svg{
+        height: 30%;
+        rotate: -45deg;
+    }
+    
+    .circle-in{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scale: 0;
+        transition: all ease 0.5s;
+        border-radius: 50%;
+    }
+    
+    .circle-in p{
+        font-size: 1vw;
+        font-size: 500;
+        color: #000;
+        width: 78%;
+        scale: 0;
+        transition: all ease 0.5s;
+        transition-delay: 0.3s;
+        opacity: 0;
+    }
+    
+    .page3-circle1:hover .circle-in{
+        scale: 1;
+    }
+    
+    .page3-circle1:hover p{
+        scale: 1;
+        opacity: 1;
+    }
+    
+    .page3-circle2:hover .circle-in{
+        scale: 1;
+    }
+    
+    .page3-circle2:hover p{
+        scale: 1;
+        opacity: 1;
+    }
 }

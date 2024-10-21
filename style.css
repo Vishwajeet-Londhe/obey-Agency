@@ -983,7 +983,7 @@ html, body{
     }
 
     #page5{
-        min-height: 100vh;
+        min-height: 50vh;
         width: 100%;
         position: relative;
         padding-top: 15vw;

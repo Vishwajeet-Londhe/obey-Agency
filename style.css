@@ -908,11 +908,11 @@ html, body{
     #page4-content h1::before{
         content: "03";
         position:absolute;
-        font-size: 3vw;
+        font-size: 5vw;
         font-weight: 100;
         font-family: "silk serif";
-        left: -12%;
-        top: 10%;
+        left: 0%;
+        top: -70%;
     }
     
     #page4-content .underline{
@@ -983,7 +983,7 @@ html, body{
     }
 
     #page5{
-        min-height: 50vh;
+        min-height: 60vh;
         width: 100%;
         position: relative;
         padding-top: 15vw;
@@ -1059,9 +1059,7 @@ html, body{
         width: 100%;
         /* background-color: red; */
         position: relative;
-        padding-top: 16vh;
-        padding-left: 28vw;
-        padding-right: 3vw;
+        padding: 5vw 5vw;
     }
     
     #footer h1{
@@ -1074,11 +1072,11 @@ html, body{
     #footer h1::before{
         content: "04";
         position:absolute;
-        font-size: 3vw;
+        font-size: 5vw;
         font-weight: 100;
         font-family: "silk serif";
-        left: -12%;
-        top: 10%;
+        left: 0%;
+        top: -100%;
     }
     
     .underline{

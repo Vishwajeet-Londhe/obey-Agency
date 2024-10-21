@@ -896,7 +896,7 @@ html, body{
         width: 90vw;
         position: relative;
         margin-left: 0%;
-        background-color: rebeccapurple;
+        /* background-color: rebeccapurple; */
     }
     
     #page4-content h1{
@@ -935,20 +935,23 @@ html, body{
     }
     
     #page4-flex img{
-        width: 50%;
+        width: 100%;
+        margin: 5vw 0 8vw 0;
     }
     
     #page4-flex p{
-        font-size: 1.25vw;
-        width: 31%;
-        margin-left: 2vw;
+        font-size: 4vw;
+        width: 90%;
+        margin-left: 0vw;
         line-height: 2.8vh;
+        margin-bottom: 5vw;
     }
     
     #page4-blue-div{
         background-color: #3F7DF4;
-        width: 43vw;
-        padding: 3vw;
+        width: 90vw;
+        padding: 5vw;
+        padding-bottom: 15vw;
         position: relative;
         margin-top: 0vh;
         margin-left: 0vw;
@@ -959,18 +962,19 @@ html, body{
         align-items: center;
         justify-content: space-between;
         /* background-color: red; */
-        padding: 2vw 0;
+        padding: 4vw 0;
         border-bottom: 2px solid #ffffff7c;
     }
     
     .blue-div-elem h4{
-        font-size: 2vw;
+        font-size: 3.9vw;
+        line-height: 7vh;
         font-weight: 500;
     }
     
     .blue-div-elem p{
         width: 50%;
-        font-size: 1vw;
+        font-size: 2.4vw;
     }
 
     

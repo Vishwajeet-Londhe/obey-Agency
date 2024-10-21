@@ -120,6 +120,10 @@ html, body{
     padding: 2.8vw 9vw;
 }
 
+#page1 .menu-opener__square{
+    display: none;
+}
+
 #nav-part2{
     display: flex;
     align-items: center;
@@ -633,6 +637,18 @@ html, body{
         scale: 0.9;
     }
 
+    #page1 .menu-opener__square{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        left: 5vw;
+        top: 8vw;
+        scale: 1.1;
+    }
+
+
+    
     #nav-part2{
         display: flex;
         align-items: center;
@@ -1116,7 +1132,7 @@ html, body{
     #footer>h5{
         font-weight: 500;
         font-size: 4vw;
-        padding-top: 1vw;
+        padding-top: 5vw;
     }
     
 }

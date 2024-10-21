@@ -622,8 +622,8 @@ html, body{
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        padding: 2.8vw 9vw;
         position:fixed;
+        padding: 2.8vw 9vw;
         width: 100%;
         top: 2vw;
         left: 5vw;
@@ -694,7 +694,7 @@ html, body{
     #page2{
         height: 58vh;
         width: 100%;
-        padding-top: 6vh;
+        padding-top: 0vh;
         position: relative;
     }
     
@@ -740,7 +740,7 @@ html, body{
         position: relative;
         /* background-color: rgb(61, 61, 61); */
         padding: 8vh 3vw 0 3vw;
-        margin-top:25vh;
+        margin-top:5vh;
         margin-bottom: 5vh;
     }
     
@@ -983,10 +983,10 @@ html, body{
     }
 
     #page5{
-        min-height: 60vh;
+        min-height: 56vh;
         width: 100%;
         position: relative;
-        padding-top: 15vw;
+        padding-top: 0vw;
     }
     
     .elem{
@@ -1063,7 +1063,7 @@ html, body{
     }
     
     #footer h1{
-        font-size: 7.5vw;
+        font-size: 9.7vw;
         text-transform: uppercase;
         /* background-color: blue; */
         position: relative;
@@ -1083,37 +1083,39 @@ html, body{
         height: 2px;
         width: 100%;
         background-color: #fff;
-        margin: 2vw 0;
+        margin: 8vw 0;
     }
     
     #footer-div{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-        padding-right:10vw;
-        padding-top: 1vw;
-        margin-bottom: 5vw;
+        flex-direction: column;
+        padding-right:15vw;
+        padding-top: 4vw;
+        margin-bottom: 6vw;
     }
     
     #footer-div h6{
-        font-size: 1.2vw;
-        margin-bottom: 1.7vw;
+        font-size: 4.9vw;
+        margin-bottom: 3.5vw;
     }
     
     .box{
-        width: 20%;
+        width: 30%;
+        margin-bottom: 5vw;
     }
     
     #footer-div h5{
-        font-size: 1.9vw;
+        font-size: 3.9vw;
         font-weight: 580;
-        margin: 0.2vh 0;
-        line-height: 2vw;
+        margin: 1.5vh 0;
+        line-height: 3.5vw;
     }
     
     #footer>h5{
         font-weight: 500;
-        font-size: 1.2vw;
+        font-size: 4vw;
         padding-top: 1vw;
     }
     

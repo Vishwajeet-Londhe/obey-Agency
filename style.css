@@ -981,5 +981,142 @@ html, body{
     #page4-content .underline:nth-last-child(1){
         margin: 26vw 0 7vw 0;
     }
+
+    #page5{
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        padding-top: 15vw;
+    }
+    
+    .elem{
+        white-space: nowrap;
+        overflow-x: hidden;
+        margin-bottom: -0.5vw;
+    }
+    
+    .elem h1{
+        font-size: 12vw;
+        -webkit-text-stroke: 1px #fff;
+        font-weight: 400;
+        color: transparent;
+        /* background-color: red; */
+        margin-right: 16px;
+        text-transform: uppercase;
+        display: inline-block;
+        animation-name: boss;
+        animation-duration: 20s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes boss {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(calc(-100% - 20px));
+        }
+    }
+    
+    .elem2{
+        white-space: nowrap;
+        overflow-x: hidden;
+        margin-bottom: -0.5vw;
+    }
+    
+    .elem2 h1{
+        font-size: 12vw;
+        -webkit-text-stroke: 1px #fff;
+        font-weight: 400;
+        color: transparent;
+        /* background-color: red; */
+        margin-right: 16px;
+        text-transform: uppercase;
+        display: inline-block;
+        transform: translateX(calc(-100% - 20px));
+        animation-name: boss;
+        animation-duration: 25s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+    }
+    
+    .elem span{
+        font-style: italic;
+        font-family: "silk sarif";
+        color: transparent;
+    }
+    
+    .elem2 span{
+        font-style: italic;
+        font-family: "silk sarif";
+        color: transparent;
+    }
+    
+    #footer{
+        min-height: 100vh;
+        width: 100%;
+        /* background-color: red; */
+        position: relative;
+        padding-top: 16vh;
+        padding-left: 28vw;
+        padding-right: 3vw;
+    }
+    
+    #footer h1{
+        font-size: 7.5vw;
+        text-transform: uppercase;
+        /* background-color: blue; */
+        position: relative;
+    }
+    
+    #footer h1::before{
+        content: "04";
+        position:absolute;
+        font-size: 3vw;
+        font-weight: 100;
+        font-family: "silk serif";
+        left: -12%;
+        top: 10%;
+    }
+    
+    .underline{
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        margin: 2vw 0;
+    }
+    
+    #footer-div{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-right:10vw;
+        padding-top: 1vw;
+        margin-bottom: 5vw;
+    }
+    
+    #footer-div h6{
+        font-size: 1.2vw;
+        margin-bottom: 1.7vw;
+    }
+    
+    .box{
+        width: 20%;
+    }
+    
+    #footer-div h5{
+        font-size: 1.9vw;
+        font-weight: 580;
+        margin: 0.2vh 0;
+        line-height: 2vw;
+    }
+    
+    #footer>h5{
+        font-weight: 500;
+        font-size: 1.2vw;
+        padding-top: 1vw;
+    }
     
 }

@@ -739,9 +739,9 @@ html, body{
         width: 100%;
         position: relative;
         /* background-color: rgb(61, 61, 61); */
-        padding: 8vh 3vw;
+        padding: 8vh 3vw 0 3vw;
         margin-top:25vh;
-        margin-bottom: 20vh;
+        margin-bottom: 5vh;
     }
     
     #page3 h1{
@@ -883,4 +883,95 @@ html, body{
         scale: 1;
         opacity: 1;
     }
+
+    #page4{
+        min-height: 100vh;
+        width: 100%;
+        position: relative;
+        padding: 10vh 5vw;
+        /* background-color: rgb(61, 61, 61); */
+    }
+    
+    #page4-content{
+        width: 90vw;
+        position: relative;
+        margin-left: 0%;
+        background-color: rebeccapurple;
+    }
+    
+    #page4-content h1{
+        font-size: 9.5vw;
+        text-transform: uppercase;
+        position: relative;
+    }
+    
+    #page4-content h1::before{
+        content: "03";
+        position:absolute;
+        font-size: 3vw;
+        font-weight: 100;
+        font-family: "silk serif";
+        left: -12%;
+        top: 10%;
+    }
+    
+    #page4-content .underline{
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        margin: 5vw 0 8vw 0;
+    }
+    
+    #page4-content>p{
+        font-size: 5.8vw;
+        width: 90%;
+        margin-bottom: 4vw;
+        margin-top: 4vw;
+    }
+    
+    #page4-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #page4-flex img{
+        width: 50%;
+    }
+    
+    #page4-flex p{
+        font-size: 1.25vw;
+        width: 31%;
+        margin-left: 2vw;
+        line-height: 2.8vh;
+    }
+    
+    #page4-blue-div{
+        background-color: #3F7DF4;
+        width: 43vw;
+        padding: 3vw;
+        position: relative;
+        margin-top: 0vh;
+        margin-left: 0vw;
+    }
+    
+    .blue-div-elem{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: red; */
+        padding: 2vw 0;
+        border-bottom: 2px solid #ffffff7c;
+    }
+    
+    .blue-div-elem h4{
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    
+    .blue-div-elem p{
+        width: 50%;
+        font-size: 1vw;
+    }
+
+    
 }

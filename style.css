@@ -977,5 +977,9 @@ html, body{
         font-size: 2.4vw;
     }
 
+    /* when i apply properties on underline all are affected so */
+    #page4-content .underline:nth-last-child(1){
+        margin: 26vw 0 7vw 0;
+    }
     
 }
